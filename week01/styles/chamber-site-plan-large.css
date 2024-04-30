@@ -1,0 +1,26 @@
+@media only screen and (min-width: 700px) {
+    body {
+        margin: 4rem;
+    }
+
+    nav ul {
+        display: flex;
+    }
+
+    nav li {
+        flex-grow: 4;
+    }
+
+    .desktop-img,
+    .mobile-img {
+        margin: 0 auto;
+    }
+    
+    .mobile-img {
+        max-width: 330px;
+    }
+
+    .desktop-img {
+        max-width: 500px;
+    }
+}
