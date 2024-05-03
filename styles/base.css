@@ -24,6 +24,7 @@ header {
     display: grid;
     grid-template: 0.2fr 1fr 0.2fr / 1fr 2fr;
     color: #cad2c5;
+    padding-bottom: 3rem;
 }
 
 header img {
@@ -41,8 +42,11 @@ header span {
 }
 
 nav {
-    text-align: center;
     background-color: #52796f;
+}
+
+nav li {
+    text-align: center;
 }
 
 nav a {
@@ -62,7 +66,7 @@ nav .active {
 }
 
 main {
-    margin: 1rem 2rem;
+    padding: 1rem 2rem;
 }
 
 main h1 {
@@ -102,4 +106,56 @@ footer {
 
 footer p {
     margin: 10px 0;
+}
+
+#hamburger {
+    margin: 1rem;
+    padding: 0 .5rem;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+#hamburger::before {
+    content: "☰";
+}
+
+.menuLinks {
+    display: none;
+}
+
+.menuLinks.open{
+    display: block;
+}
+
+#hamburger.open::before {
+    content: "✖";
+}
+
+#darkIcon{
+    position: absolute;
+    top: 9.5rem;
+    left: 50%;
+    cursor: pointer;
+}
+
+.dark {
+    background-color: #001523;
+}
+
+main.dark h1,
+main.dark section ul {
+    color: #cad2c5;
+    
+}
+
+main.dark h1 {
+    border-bottom: 1px solid #cad2c5;
+}
+
+main.dark section ul a {
+    color: #48cae4;
+}
+
+main.dark section {
+    border-color: #cad2c5;
 }

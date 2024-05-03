@@ -13,7 +13,11 @@
         font-size: 3rem;
     }
 
-    nav ul{
+    .menuLinks {
+        display: flex;
+    }
+
+    .menuLinks.open {
         display: flex;
     }
 
@@ -35,5 +39,16 @@
         grid-column: 1/3;
         font-size: 2rem;
         text-align: start;
+    }
+    
+    #hamburger {
+        display: none;
+    }
+
+    #darkIcon{
+        position: absolute;
+        top: 4.5rem;
+        right: 15%;
+        cursor: pointer;
     }
 }
