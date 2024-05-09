@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-h1, h2, h3, h4, header span{
+h1, h2, h3, h4{
     font-family: "Source Sans 3", Arial, sans-serif;
 }
 
@@ -17,7 +17,7 @@ header {
     padding: 1rem 2rem;
     color: #f6f6f6;
     text-align: center;
-    font-size: 1em;
+    font-size: .5rem;
 }
 
 nav {
@@ -143,9 +143,6 @@ footer {
 
 footer address {
     border-bottom: solid 1px #0075c1;
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
 }
 
 footer p {
