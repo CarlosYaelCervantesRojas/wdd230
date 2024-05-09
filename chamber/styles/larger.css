@@ -1,0 +1,41 @@
+@media screen and (min-width: 650px) {
+    body {
+        max-width: 1500px;
+        margin: 0 auto;
+    }
+
+    #hamburgerButton {
+        display: none;
+    }
+
+    #menuLinks {
+        display: flex;
+    }
+
+    #menuLinks.open {
+        display: flex;
+    }
+
+    #menuLinks li {
+        flex-grow: 1;
+    }
+
+    #hero {
+        grid-template-columns: 1fr .5fr;
+        grid-template-rows: 0fr;
+    }
+
+    #hero-img {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    #hero aside {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    .card, .member {
+        margin: 2rem 5rem;
+    }
+}

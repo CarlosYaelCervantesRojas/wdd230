@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, header span{
+    font-family: "Source Sans 3", Arial, sans-serif;
+}
+
+p, span, li, a {
+    font-family: "Fjalla One", sans-serif;
+}
+
+header {
+    background-color: #0075c1;
+    padding: 1rem 2rem;
+    color: #f6f6f6;
+    text-align: center;
+    font-size: 1em;
+}
+
+nav {
+    background-color: #f6f6f6;
+}
+
+#hamburgerButton {
+    font-size: 2rem;
+    padding: 0 .7rem;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+#hamburgerButton::before {
+    content: "☰";
+}
+
+#hamburgerButton.open::before {
+    content: "︽";
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    display: none;
+}
+
+nav ul.open {
+    display: block;
+}
+
+li a {
+    text-decoration: none;
+    display: block;
+    padding: 10px 0;
+    color: #161616;
+}
+
+li a:hover {
+    background-color: rgba(255, 255, 255, .9);
+} 
+
+#hero {
+    display: grid;
+    grid-template: .3fr 1fr 1fr .3fr / .3fr 1fr .3fr;
+}
+
+#hero aside {
+    grid-row: 3/5;
+    grid-column: 2/3;
+    background-color: #161616;
+    text-align: center;
+    color: #f6f6f6;
+    align-content: center;
+    padding: 1rem;
+}
+
+aside button {
+    background-color: #0075c1;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    font-family: "Source Sans 3", Arial, sans-serif;
+    font-weight: bolder;
+    border: none;
+    color: #f6f6f6;
+    margin-top: 20px;
+}
+
+#hero-img {
+    grid-column: 1/4;
+    grid-row: 1/4;
+    height: auto;
+}
+
+#hero-img img {
+    width: 100%;
+}
+
+.card {
+    border: solid 1px #161616;
+    border-radius: 15px;
+    margin: 1rem 2rem;
+    overflow: hidden;
+}
+
+.card h3 {
+    padding: .5rem 0;
+    text-align: center;
+    border-bottom: solid 1px #161616;
+    background-color: #0075c1;
+    color: #f6f6f6;
+}
+
+.card p {
+    background-color: #f6f6f6;
+    padding: .5rem 1rem;
+}
+
+.spotlights {
+    color: #161616;
+    text-align: center;
+}
+
+.member {
+    margin: 1rem 2rem;
+    border-radius: 20px;
+    padding: 1rem;
+    background-color: #161616;
+    color: #f6f6f6;
+}
+
+.member h4{
+    padding-bottom: 10px;
+}
+
+footer {
+    background-color: #161616;
+    color: #0075c1;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+footer address {
+    border-bottom: solid 1px #0075c1;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+footer p {
+    padding: 10px 0;
+}
