@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,  
+footer {
+    text-align: center;
+}
+
+main {
+    min-width: 1vw;
+}
+
+main img {
+    display: block;
+    padding: 15px 0;
+    margin: 0 auto;
+    animation: fade 15s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

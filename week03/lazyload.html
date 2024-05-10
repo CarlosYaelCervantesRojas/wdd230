@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazy Load</title>
+    <meta name="author" content="Carlos Cervantes">
+    <meta name="descrition" content="Small page with multiple images to scroll through as they are stacked on top of each other on a single page. When testing the page in a browser, the images will only load until they come into view.">
+    <link rel="stylesheet" href="styles/lazy-load-base.css">
+</head>
+<body>
+    <header>
+        <h1>Lazy Loading</h1>
+    </header>
+    <main>
+        <img src="https://picsum.photos/400/600" alt="Random Picture" loading="lazy">
+        <img src="https://picsum.photos/400/700" alt="Random Picture" loading="lazy">
+        <img src="https://picsum.photos/400/650" alt="Random Picture" loading="lazy">
+        <img src="https://picsum.photos/400/610" alt="Random Picture" loading="lazy">
+        <img src="https://picsum.photos/400/630" alt="Random Picture" loading="lazy">
+        <img src="https://picsum.photos/400/760" alt="Random Picture" loading="lazy">
+    </main>
+    <footer>
+        <p>Carlos Cervantes | Lazy Loading | WDD 230</p>
+        <p id="last"></p>
+    </footer>
+    <script src="scripts/last-modified.js"></script>
+</body>
+</html>
