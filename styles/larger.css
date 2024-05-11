@@ -29,7 +29,7 @@
         padding: 15px 0;
     }
 
-    main {
+    #content {
         display: grid;
         grid-template-columns: 2fr 1fr;
         gap: 10px;
@@ -50,5 +50,9 @@
         top: 4.5rem;
         right: 15%;
         cursor: pointer;
+    }
+
+    #hero span {
+        font-size: 2rem;
     }
 }

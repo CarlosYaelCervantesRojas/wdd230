@@ -13,7 +13,9 @@ main h1,
 
 nav a,
 main li,
-footer {
+section p,
+footer,
+#hero span {
     font-family: "Sulphur Point", sans-serif;
     font-weight: 400;
 }
@@ -65,20 +67,17 @@ nav .active {
     background-color: rgba(0, 0, 0, 0.3);
 }
 
-main {
-    padding: 1rem 2rem;
-}
-
 main h1 {
     border-bottom: 1px solid black;
     font-size: 18px;
     text-align: center;
+    margin: 0 2rem;
+    padding: 1rem 0;
 }
 
 .card {
     border: 1px solid;
     border-radius: 10px;
-    margin: 1rem 0;
     overflow: hidden;
 }
 
@@ -89,8 +88,13 @@ main h1 {
     color: #cad2c5;  
 }
 
-.card ul {
+.card ul,
+.card p {
     padding: 1rem;
+}
+
+.card p {
+    text-align: center;
 }
 
 ul {
@@ -143,7 +147,8 @@ footer p {
 }
 
 main.dark h1,
-main.dark section ul {
+main.dark section ul,
+main.dark section p {
     color: #cad2c5;
     
 }
@@ -158,4 +163,46 @@ main.dark section ul a {
 
 main.dark section {
     border-color: #cad2c5;
+}
+
+picture {
+    width: 100%;
+}
+
+picture img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 1rem 2rem 0 2rem;
+    padding-bottom: 1rem;
+}
+
+#hero {
+    position: relative;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#hero span {
+    position: absolute;
+    bottom: 5px;
+    right: 0px;
+    left: 0px;
+    padding: 1rem 2rem;
+    color: #000;
+    font-weight: bolder;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+iframe {
+    width: 100%;
+    padding: 1rem 2rem;
+    display: block;
 }
