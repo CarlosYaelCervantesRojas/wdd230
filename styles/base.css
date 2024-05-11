@@ -185,15 +185,14 @@ picture img {
 
 #hero {
     position: relative;
-    max-width: 960px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
 #hero span {
     position: absolute;
-    bottom: 5px;
+    top: 25px;
     right: 0px;
-    left: 0px;
     padding: 1rem 2rem;
     color: #000;
     font-weight: bolder;
