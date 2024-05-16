@@ -57,4 +57,26 @@
         margin: 1rem 2rem;
         gap: 20px;
     }
+
+    #discover-container {
+        margin: 2rem 4rem;
+        gap: 30px;
+    }
+
+    #discover-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #discover-container main {
+        grid-column: 2/3;
+    }
+
+    #discover-container aside {
+        grid-column: 1/2;
+    }
+
+    #discover-container main img:hover{
+        box-shadow: 0 0 50px #161616;
+    }
 }

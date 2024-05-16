@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puebla Chamber | The Chamber of Commerce for Small Businesses</title>
+    <link rel="icon" href="images/favicon.ico">
+    <meta name="author" content="Carlos Cervantes">
+    <meta name="description" content="Puebla Chamber, The Chamber of Commerce for Small Businesses, represents the city in which small business operates,  focused on helping small businesses grow by promoting them and providing educational opportunities to improve.">
+    <meta property="og:title" content="Puebla Chamber | The Chamber of Commerce for Small Businesses">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://images.pexels.com/photos/20610915/pexels-photo-20610915/free-photo-of-ciudad-coches-carretera-punto-de-referencia.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+    <meta property="og:url" content="https://carlosyaelcervantesrojas.github.io/wdd230/chamber/index.html">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Source+Sans+3:ital@0;1&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h1>PUEBLA CHAMBER<br>The Chamber of Commerce for Small Businesses</h1>
+    </header>
+    <nav>
+        <button id="hamburgerButton"></button>
+        <ul id="menuLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#" id="active">Discover</a></li>
+            <li><a href="#">Directory</a></li>
+        </ul>
+    </nav>
+    <div id="discover-container">
+        <aside>
+            <section>
+                <h2>About Puebla</h2>
+                <h3>Must-see attractions in Puebla</h3>
+                <article>
+                    <h4>Catedral de Puebla</h4>
+                    <p>Puebla's impressive cathedral. Its architecture is a blend of severe Herreresque-Renaissance and early baroque styles.</p>
+                    <address>cnr Avs 3 Oriente & 16 de Septiembre</address>
+                </article>
+                <article>
+                    <h4>Museo Internacional del Barroco</h4>
+                    <p>This monumental white, architecturally spectacular museum is dedicated to the showy baroque movement; art, fashion, music and literature</p>
+                    <address>Atlixcáyotl 2501. Reserva Territorial Atlixcáyotl</address>
+                </article>
+                <article>
+                    <h4>Museo Casa del Alfeñique</h4>
+                    <p>This renovated colonial house is an outstanding example of the over-the-top 18th-century decorative style alfeñique, characterized by elaborate stucco ornamentation and named after a candy made from sugar and egg whites (evolving into modern-day Pueblan marzipan).</p>
+                    <address>Av 4 Oriente 416</address>
+                </article>
+                <article>
+                    <h4>Museo del Ferrocarril</h4>
+                    <p>This excellent railway museum with activities for kids is housed in Puebla’s former train station and the spacious grounds surrounding it. There are ancient steam-powered monsters through to relatively recent passenger carriages, many of which you can enter.</p>
+                    <address>Calle 11 Norte 1005</address>
+                </article>
+                <article>
+                    <h4>Edificio Carolino</h4>
+                    <p>Next door to the Iglesia de la Compañía is the 16th-century Edificio Carolino, now the main building of Universidad Autónoma de Puebla.</p>
+                    <address>cnr Calle 3 Oriente & Calle 4 Sur</address>
+                </article>
+            </section>
+            <section>
+                <h3 id="user-visits"></h3>
+            </section>
+        </aside>
+        <main>
+            <picture>
+                <img src="images/chautla.webp" alt="Chautla" loading="lazy" width="670" height="450">
+                <figcaption>Chautla</figcaption>
+            </picture>
+            <picture>
+                <img src="images/food.webp" alt="Mexican Food" loading="lazy" width="670" height="450">
+                <figcaption>Food</figcaption>
+            </picture>
+            <picture>
+                <img src="images/funfair.webp" alt="Puebla Funfair" loading="lazy" width="670" height="450">
+                <figcaption>Puebla Funfair</figcaption>
+            </picture>
+            <picture>
+                <img src="images/groceries.webp" alt="Cholula Market" loading="lazy" width="670" height="450">
+                <figcaption>Cholula Market</figcaption>
+            </picture>
+            <picture>
+                <img src="images/store.webp" alt="Local Store" loading="lazy" width="670" height="450">
+                <figcaption>Puebla Local Store</figcaption>
+            </picture>
+            <picture>
+                <img src="images/market.webp" alt="Local Market" loading="lazy" width="670" height="450">
+                <figcaption>Puebla Market</figcaption>
+            </picture>
+        </main>
+    </div>
+    <footer>
+        <address>
+            <p>Puebla Chamber</p>
+            <p>10 street</p>
+            <p>555 999 666</p>
+        </address>
+        <p>Carlos Cervantes <br> WDD 230</p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/page-visits.js"></script>
+</body>
+</html>

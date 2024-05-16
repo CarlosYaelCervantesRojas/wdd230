@@ -8,7 +8,7 @@ h1, h2, h3, h4{
     font-family: "Source Sans 3", Arial, sans-serif;
 }
 
-p, span, li, a {
+p, span, li, a, figcaption {
     font-family: "Fjalla One", sans-serif;
 }
 
@@ -147,4 +147,49 @@ footer address {
 
 footer p {
     padding: 10px 0;
+}
+
+#active {
+    color: #0075c1;
+}
+
+#discover-container {
+    margin: 1rem 2rem;
+}
+
+#discover-container main img {
+    width: 100%;
+    height: auto;
+}
+
+main picture figcaption {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#user-visits {
+    background-color: #f6f6f6;
+    text-align: center;
+    padding: 1rem 0;
+    border-radius: 25px;
+}
+
+#discover-container aside section h2,
+#discover-container aside section h3 {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+#discover-container article h4 {
+    font-size: 1.5rem;
+}
+
+#discover-container article {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 30px;
+    background-color: #f6f6f6;
+    padding: 1rem;
+    border-radius: 25px;
 }
