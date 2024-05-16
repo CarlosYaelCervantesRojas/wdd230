@@ -8,7 +8,7 @@ h1, h2, h3, h4{
     font-family: "Source Sans 3", Arial, sans-serif;
 }
 
-p, span, li, a, figcaption {
+p, span, li, a {
     font-family: "Fjalla One", sans-serif;
 }
 
@@ -162,7 +162,8 @@ footer p {
     height: auto;
 }
 
-main picture figcaption {
+.caption {
+    display: block;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -172,6 +173,10 @@ main picture figcaption {
     text-align: center;
     padding: 1rem 0;
     border-radius: 25px;
+    font-family: "Source Sans 3", Arial, sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    display: block;
 }
 
 #discover-container aside section h2,
