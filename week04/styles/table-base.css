@@ -1,0 +1,41 @@
+:root {
+    --zebra: hsl(0, 0%, 93%, 1);
+    --grey: hsl(0, 0%, 83%, 1);
+}
+
+table {
+    margin: 30px auto;
+    border: thin solid var(--zebra);
+    border-collapse: collapse;
+}
+
+caption {
+    caption-side: bottom;
+    padding: 10px;
+    font-size: .85rem;
+}
+
+th, td {
+    padding: 10px 15px;
+    border: thin solid var(--grey);
+}
+
+th {
+    background-color: gray;
+    border-top: none;
+    color: white;
+}
+
+td {
+    text-align: center;
+}
+
+thead tr th:first-child {
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: var(--zebra);
+}
