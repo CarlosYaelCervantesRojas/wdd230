@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carlos Cervantes - WDD 230 - Web Frontend Development</title>
+    <meta name="description" content="Course assigment portal page for the WDD 230 - Web Fronted Develoment course, created by Carlos Cervantes">
+    <meta name="author" content="Carlos Cervantes">
+    <meta property="og:title" content="Carlos Cervantes - WDD 230 - Web Frontend Development">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://images.pexels.com/photos/20610915/pexels-photo-20610915/free-photo-of-ciudad-coches-carretera-punto-de-referencia.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+    <meta property="og:url" content="https://carlosyaelcervantesrojas.github.io/wdd230/">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Sulphur+Point:wght@300;400;700&display=swap" rel="stylesheet">
+  </head>
+<body>
+    <header>
+        <img src="images/profile.webp" alt="Carlos Cervantes profile" width="100" height="100"> 
+        <span>Carlos Cervantes</span>
+        <img id="darkIcon" src="images/contrast.svg" alt="Dark Icon">
+    </header>
+    <nav>
+        <button id="hamburger" type="button"></button>
+        <ul class="menuLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="chamber/index.html">Chamber</a></li>
+            <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
+            <li class="active"><a href="form.html">Form</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Couse Page Rating</h1>
+       <form id="r-form" action="record.html" method="get">
+        <label>Username* <input type="text" id="username" name="username" required></label>
+        <label>Password* <input type="password" id="password" name="new-password" pattern="[a-zA-Z0-9]{8,}" title="At least eight (8) characters long and can only be alpha-numeric" required></label>
+        <label>Password Confirmation* <input type="password" id="password-confirmed" name="password-confirmed"></label>
+        <div id="match-message"></div>
+        <label>Email* <input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+\-]+@byui\.edu" title="Please enter a valid email address" required></label>
+        <label for="rating">Page Rating</label>
+        <div id="rating-value">1</div>
+        <input type="range" id="rating" name="rating" min="1" max="10" value="1" step="1" list="rating-values">
+        <datalist id="rating-values">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </datalist>
+        <button type="submit">Send Rating </button>
+       </form>
+    </main>
+    <footer>
+        <p></p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/dark.js"></script>
+    <script src="scripts/match-password.js"></script>
+    <script src="scripts/show-rating-value.js"></script>
+</body>
+</html>
