@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puebla Chamber | The Chamber of Commerce for Small Businesses</title>
+    <link rel="icon" href="images/favicon.ico">
+    <meta name="author" content="Carlos Cervantes">
+    <meta name="description" content="Puebla Chamber, The Chamber of Commerce for Small Businesses, represents the city in which small business operates,  focused on helping small businesses grow by promoting them and providing educational opportunities to improve.">
+    <meta property="og:title" content="Puebla Chamber | The Chamber of Commerce for Small Businesses">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://images.pexels.com/photos/20610915/pexels-photo-20610915/free-photo-of-ciudad-coches-carretera-punto-de-referencia.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+    <meta property="og:url" content="https://carlosyaelcervantesrojas.github.io/wdd230/chamber/index.html">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Source+Sans+3:ital@0;1&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h1>PUEBLA CHAMBER<br>The Chamber of Commerce for Small Businesses</h1>
+    </header>
+    <nav>
+        <button id="hamburgerButton"></button>
+        <ul id="menuLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="#">Directory</a></li>
+        </ul>
+    </nav>
+    <main class="application-container">
+        <table class="tbenefits">
+            <thead>
+                <tr>
+                    <th colspan="5" scope="colgroup">Membership Benefits</th>
+                </tr>
+                <tr>
+                    <th scope="col"></th>
+                    <th scope="col">NP</th>
+                    <th scope="col">Bronze</th>
+                    <th scope="col">Silver</th>
+                    <th scope="col">Gold</th>
+                </tr>
+                <tr>
+                    <th scope="col"></th>
+                    <th scope="col"><p>No Fee</p></th>
+                    <th scope="col"><p>$25.00</p><span>per month</span></th>
+                    <th scope="col"><p>$40.00</p><span>per month</span></th>
+                    <th scope="col"><p>$65.00</p><span>per month</span></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Special Events</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                </tr>
+                <tr>
+                    <td>Training</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                </tr>
+                <tr>
+                    <td>Advertising</td>
+                    <td>❌</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                </tr>
+                <tr>
+                    <td>Event Discounts</td>
+                    <td>❌</td>
+                    <td>❌</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                </tr>
+                <tr>
+                    <td>Funding & Loans</td>
+                    <td>❌</td>
+                    <td>❌</td>                    
+                    <td>❌</td>                    
+                    <td>✔️</td>
+                </tr>
+                <tr>
+                    <td>Trademark Registration</td>
+                    <td>❌</td>
+                    <td>❌</td>
+                    <td>❌</td>
+                    <td>✔️</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Membership Application</h2>
+        <form class="fmember" action="thankyou.html" method="get">
+            <label>
+                First Name* <input type="text" name="fname" id="fname" required>
+            </label>
+            <label>
+                Last Name* <input type="text" name="lname" id="lname" required>
+            </label>
+            <label>
+                Title or Position <input type="text" name="title" id="title" pattern="[a-zA-Z\s\-]{7,}" title="Only accept alpha characters, hyphens, and spaces with a minimum of seven characters">
+            </label>
+            <label>
+                Email* <input type="email" name="email" id="email" required placeholder="someone@gmail.com">
+            </label>
+            <label>
+                Mobile Phone Number* <input type="tel" name="tel" id="tel" required>
+            </label>
+            <label>
+                Business/Organization's Name* <input type="text" name="business" id="business" required>
+            </label>
+
+            <div>Membership Level</div>
+            <label><input type="radio" name="level" value="np-membership"> NP Membership (for non profit organizations, there is no fee.)</label>
+            <label><input type="radio" name="level" value="bronze"> Bronze Membership</label>
+            <label><input type="radio" name="level" value="silver"> Silver Membership</label> 
+            <label><input type="radio" name="level" value="gold"> Gold Membership</label> 
+
+            <label>Description <textarea name="description" id="description"></textarea></label>
+            <label><input type="hidden" name="timestamp" id="timestamp"></label>
+
+            <button type="submit">Join Membership</button>
+        </form>
+    </main>
+    <footer>
+        <address>
+            <p>Puebla Chamber</p>
+            <p>10 street</p>
+            <p>555 999 666</p>
+        </address>
+        <p>Carlos Cervantes <br> WDD 230</p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/timestamp.js"></script>
+</body>
+</html>

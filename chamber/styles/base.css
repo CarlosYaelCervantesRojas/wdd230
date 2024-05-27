@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -75,7 +76,8 @@ li a:hover {
     padding: 1rem;
 }
 
-aside button {
+#hero aside a {
+    display: inline-block;
     background-color: #0075c1;
     padding: 0.5rem 1.5rem;
     border-radius: 0.2rem;
@@ -85,6 +87,7 @@ aside button {
     border: none;
     color: #f6f6f6;
     margin-top: 20px;
+    text-decoration: none;
 }
 
 #hero-img {
@@ -197,4 +200,118 @@ footer p {
     background-color: #f6f6f6;
     padding: 1rem;
     border-radius: 25px;
+}
+
+.thanks{
+    padding: 3.5rem 2rem;
+}
+
+.thankyou-message {
+    text-align: center;
+    text-decoration: none;
+}
+
+.application-container {
+    margin: 1rem;
+}
+
+.application-container h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.tbenefits {
+    margin: 1.5rem 0;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tbenefits tr th{
+    background: #0075c1;
+    color: #f6f6f6;
+    font-size: .8rem;
+}
+
+.tbenefits tr th p, .tbenefits tr th span, .tbenefits tr th{
+    font-family: "Source Sans 3", Arial, sans-serif;
+}
+
+.tbenefits tr:first-child th{
+    font-size: 1.5rem;
+    padding: .5rem;
+}
+
+.tbenefits tbody tr td:first-child {
+    background-color: #161616;
+    color: #f6f6f6;
+    font-family: "Fjalla One", sans-serif;
+    position: relative;
+    padding: .5rem;
+    border: 1px #f6f6f6 solid;
+}
+
+.tbenefits tbody td {
+    text-align: center;
+    border-left: 1px #16161636 solid;
+}
+
+.tbenefits tr:nth-child(odd) {
+    background-color: #f6f6f6;
+}
+
+.fmember {
+    border: 2px solid #0075c1;
+    border-radius: 20px;
+    padding: 2rem 1rem;
+}
+
+.fmember label, .fmember div {
+    display: block;
+    font-family: "Fjalla One", sans-serif;
+    color: #161616;
+}
+
+.fmember input[type="text"],
+.fmember input[type="tel"],
+.fmember input[type="email"] {
+    display: block;
+    width: 100%;
+    height: 2.5rem;
+    padding-left: .5rem;
+    font-family: "Source Sans 3", Arial, sans-serif;
+    margin-bottom: 1.5rem;
+}
+
+.fmember div ~ label{
+    font-family: "Source Sans 3", Arial, sans-serif;
+}
+.fmember div + label + label + label + label + label{
+    font-family: "Fjalla One", sans-serif;
+    margin-top: 1.5rem;
+}
+
+.fmember textarea {
+    display: block;
+    width: 100%;
+    min-height: 80px;
+    max-height: 150px;
+    padding: .5rem;
+    font-family: "Source Sans 3", Arial, sans-serif;
+    margin-bottom: 1.5rem;
+}
+
+.fmember button {
+    padding: 1rem;
+    width: 80%;
+    margin: 0 10%;
+    font-family: "Fjalla One", sans-serif;
+    border-radius: 15px;
+    border: none;
+    color: #f6f6f6;
+    cursor: pointer;
+    background-image: linear-gradient(#0075c1, #161616b4);
+}
+
+.fmember input:required:valid {
+    border-bottom: green solid;
 }

@@ -1,0 +1,13 @@
+{
+    "familyName": "Cervantes",
+    "dateFamilyMovedWard": "2024-05-23",
+    "numberPeopleInFamily": 1,
+    "visitedBishopric": true,
+    "individialMembers": [
+        {
+            "name": "Carlos Cervantes",
+            "gender": "male",
+            "birthdate": "2000-09-27"
+        }
+    ]
+}
