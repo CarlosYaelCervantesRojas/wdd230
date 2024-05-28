@@ -205,3 +205,12 @@ iframe {
     padding: 1rem 2rem;
     display: block;
 }
+
+#weather-info {
+    text-align: center;
+}
+
+#weather-info img {
+    background-color: rgba(82, 96, 109, 0.562);
+    border-radius: 15px;
+}
