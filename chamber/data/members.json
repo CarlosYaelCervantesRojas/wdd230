@@ -2,10 +2,18 @@
     "companies": [
         {
             "name": "El Palacio de Hierro",
-            "addres": "Blvrd del Niño Poblano 2510, Concepcion La Cruz, Concepción Guadalupe, 72450 Heroica Puebla de Zaragoza, Pue.",
-            "phone": 2222738800,
+            "addres": "Blvrd del Niño Poblano 2510, 72450",
+            "phone": "222-273-8800",
             "url": "https://www.elpalaciodehierro.com/",
             "image": "https://www.elpalaciodehierro.com/on/demandware.static/-/Library-Sites-palacio-content-global/default/dw2e6f5daa/images/el-palacio-de-hierro.svg",
+            "level": "Gold"
+        },
+        {
+            "name": "AutoZone",
+            "addres": "Barrio de San Sebastián, 72090",
+            "phone": "222-279-9520",
+            "url": "https://www.autozone.com.mx/",
+            "image": "https://www.autozone.com.mx/images/logoautozonemx.svg",
             "level": "Gold"
         }
     ]
