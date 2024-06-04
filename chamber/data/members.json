@@ -1,6 +1,14 @@
 {
     "companies": [
         {
+            "name": "Club Alpha",
+            "addres": "Blvd. Camacho Espíritu 903, Prados Agua Azul, 72430",
+            "phone": "221-101-9889",
+            "url": "https://www.clubalpha.com.mx/",
+            "image": "https://www.clubalpha.com.mx/images/Club_Alpha_-_Logo.png",
+            "level": "Gold"
+        },
+        {
             "name": "El Palacio de Hierro",
             "addres": "Blvrd del Niño Poblano 2510, 72450",
             "phone": "222-273-8800",
@@ -15,6 +23,38 @@
             "url": "https://www.autozone.com.mx/",
             "image": "https://www.autozone.com.mx/images/logoautozonemx.svg",
             "level": "Gold"
+        },
+        {
+            "name": "Tony Superpapelerías",
+            "addres": "Av. 10 Pte. No. 1710, Jesús García, 72090",
+            "phone": "222-242-6077",
+            "url": "https://www.tony.com.mx/",
+            "image": "https://tonypapelerias.vtexassets.com/assets/vtex.file-manager-graphql/images/0a96b505-c2ee-4114-9dec-f41cb2f1ce62___284a70e11ccc9bdd66f852ef8f3399c0.png",
+            "level": "Silver"
+        },
+        {
+            "name": "Antigua Taqueria La Oriental",
+            "addres": "Antiguo Camino Real a Cholula 2202-local 6, 72810",
+            "phone": "222-225-5545",
+            "url": "https://www.antiguataquerialaoriental.com/",
+            "image": "https://www.antiguataquerialaoriental.com/images/logo-laoriental.png",
+            "level": "Silver"
+        },
+        {
+            "name": "Paleteria La Michoacana",
+            "addres": "Av. Orión Sur 543A, Magisterio 2000 I, 72825",
+            "phone": "222-459-8213",
+            "url": "https://www.michoacana.com/",
+            "image": "https://static.wixstatic.com/media/18bdc5_725be7ff4f9d4becafd51a6ab8407818~mv2.png/v1/fill/w_160,h_160,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/LaMichoacana_Brandmark.png",
+            "level": "Bronze"
+        },
+        {
+            "name": "Momias de la Victoria",
+            "addres": "Av. 4 Pte. 103d, Centro, 72000",
+            "phone": "222-761-2361",
+            "url": "https://www.facebook.com/momiasdelavictoria/",
+            "image": "https://scontent.fpbc1-1.fna.fbcdn.net/v/t39.30808-6/344572732_915841309469499_2449154727375462680_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=RFeOBOcw0YcQ7kNvgHfgSyk&_nc_ht=scontent.fpbc1-1.fna&oh=00_AYAPShN12mwGfs8CStPq8iJI3IGMHc-lRGFH8TFTbT_zdg&oe=66643882",
+            "level": "NP"
         }
     ]
 }
