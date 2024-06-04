@@ -315,3 +315,96 @@ footer p {
 .fmember input:required:valid {
     border-bottom: green solid;
 }
+
+#directory {
+    margin: 1rem;
+}
+
+#directory h2,
+.view-buttons {
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 15px;
+    margin: 1rem 0;
+}
+
+.grid article {
+    background-color: #CED4DA;
+    padding: 1rem .5rem;
+    box-shadow: 1px 5px 10px 0px #161616;
+    height: 100%;
+    align-content: center;
+    text-align: center;
+}
+
+.grid h3 {
+    display: none;
+}
+
+.grid picture {
+    display: inline-block;
+    width: 150px;
+}
+
+.grid img {
+    width: 100%;
+    height: auto;
+}
+
+.grid address,
+.grid span,
+.grid p {
+    display: block;
+    padding: 10px 0;
+    
+}
+
+.grid p::before,
+.list p::before {
+    content: "Membership Level: ";
+}
+
+#grid-view, 
+#list-view {
+    background-color: #f6f6f6;
+    border: 1px solid #0075c1;
+    padding: .5rem .7rem;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px 0;
+    margin-right: 15px;
+}
+
+.view-active{
+    box-shadow: 0px 1px 5px 1px #0075c1;
+}
+
+.list article:nth-child(odd) {
+    background-color: #CED4DA;
+}
+
+.list article{
+    padding: 1rem .5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.list picture,
+.list img{
+    display: none;
+}
+
+.list address,
+.list span,
+.list p {
+    display: block;
+}
+
+a:visited {
+    color: #03045E;
+}

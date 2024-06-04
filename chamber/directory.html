@@ -26,46 +26,20 @@
     <nav>
         <button id="hamburgerButton"></button>
         <ul id="menuLinks">
-            <li><a href="index.html" id="active">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="discover.html">Discover</a></li>
-            <li><a href="directory.html">Directory</a></li>
+            <li><a href="directory.html" id="active">Directory</a></li>
         </ul>
     </nav>
     <main>
-        <div id="hero">
-            <div id="hero-img">
-                <img src="images/puebla-hero.jpg" alt="puebla businesses">
+        <section id="directory">
+            <h2>Business Directory</h2>
+            <div class="view-buttons">
+                <button id="grid-view" class="view-active"><img src="images/grid_view.svg" alt="grid view"></button>
+                <button id="list-view"><img src="images/list_view.svg" alt="list view"></button>
             </div>
-            <aside>
-                <h2>Join the Chamber</h2>
-                <a href="join.html">JOIN</a>
-            </aside>
-        </div>
-        <div id="cards">
-            <section class="card">
-                <h3>Events</h3>
-                <p>Lorem ipsum dolor si optio quasi voluptatem incidunt ipsum quae aperiam iusto? Architecto vitae quo optio molestiae laboriosam reprehenderit excepturi officiis nostrum molestias? Sint a, id blanditiis qui aut sit similique iste totam enim.</p>
-            </section>
-            <section class="card">
-                <h3>Weather</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur esse, voluptatem quas deleniti eum rerum eaque reiciendis iusto nobis sunt? Distinctio, tempore! Non earum soluta labore? Similique velit provident tempora?</p>
-            </section>
-        </div>
-        <h2 class="spotlights">Merber Spotlights</h2>
-        <div id="members">
-            <article class="member">
-                <h4>Lorem ipsum dolor</h4>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam, magni. Expedita providen</p>
-            </article>
-            <article class="member">
-                <h4>Lorem ipsum dolor</h4>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam, magni. Expedita providen</p>
-            </article>
-            <article class="member">
-                <h4>Lorem ipsum dolor</h4>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam, magni. Expedita providen</p>
-            </article>
-        </div>
+            <div id="directory-cards" class="grid"></div>
+        </section>
     </main>
     <footer>
         <address>
@@ -78,5 +52,7 @@
     </footer>
     <script src="scripts/menu.js"></script>
     <script src="scripts/getDates.js"></script>
+    <script src="scripts/members.js"></script>
+    <script src="scripts/grid-list.js"></script>
 </body>
 </html>
