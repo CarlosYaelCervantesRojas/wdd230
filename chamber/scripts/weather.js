@@ -1,7 +1,7 @@
 const latLong = "lat=19.04&lon=-98.21&units=imperial";
 const key = "6f0149a9dd659fc67ec655cf1715678d";
 const current = `https://api.openweathermap.org/data/2.5/weather?${latLong}&appid=${key}`;
-const forecast = `http://api.openweathermap.org/data/2.5/forecast?${latLong}&appid=${key}`;
+const forecast = `https://api.openweathermap.org/data/2.5/forecast?${latLong}&appid=${key}`;
 
 const div = document.getElementById("current-weather");
 
