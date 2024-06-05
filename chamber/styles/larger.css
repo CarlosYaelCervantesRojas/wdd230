@@ -50,6 +50,11 @@
 
     #members {
         display: flex;
+        justify-content: space-evenly;
+    }
+
+    #members article picture {
+        max-width: 350px;
     }
 
     #cards,
@@ -116,5 +121,14 @@
     .list {
         max-width: 500px;
         margin: 1rem auto;
+    }
+
+    #banner p{
+        margin: 0 auto;
+        font-size: 2rem;
+    }
+
+    #banner button {
+        cursor: pointer;
     }
 }
