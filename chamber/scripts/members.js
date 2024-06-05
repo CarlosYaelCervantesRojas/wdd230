@@ -5,7 +5,6 @@ async function getMembers() {
     try {
         const response = await fetch(url);
         const data = await response.json();
-        console.log(data)
         displayMembers(data.companies);
     } catch (error) {
         console.log(error);
